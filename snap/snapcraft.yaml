@@ -91,13 +91,13 @@ parts:
       - libpulse0
       - libssl1.1
       - zlib1g
+      - fonts-open-sans
     configflags:
       - -DCMAKE_C_COMPILER=gcc-8
       - -DCMAKE_CXX_COMPILER=g++-8
       - -DCMAKE_BUILD_TYPE=Release
       - -DTDESKTOP_API_ID=611335
       - -DTDESKTOP_API_HASH=d524b414d21f4d37f08684c1df41ac9c
-      - -DDESKTOP_APP_USE_PACKAGED_FONTS=OFF
       - -DDESKTOP_APP_USE_PACKAGED_GSL=OFF
       - -DDESKTOP_APP_USE_PACKAGED_EXPECTED=OFF
       - -DDESKTOP_APP_USE_PACKAGED_RLOTTIE=OFF
